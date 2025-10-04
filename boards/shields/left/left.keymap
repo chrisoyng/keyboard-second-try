@@ -1,0 +1,18 @@
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+
+/ {
+    keymap {
+        compatible = "zmk,keymap";
+
+        default_layer { // Layer 0
+            bindings = <
+                &kp A    &kp A    &kp A    &kp A    &kp A    &kp A    &kp A    &kp A    &kp A // push button, reset switch
+                &kp A    &kp A    &kp A    &kp A    &kp A    &kp A    &kp A    &kp A    &kp A    &studio_unlock // push button, push button
+                &kp A    &kp A    &kp A    &kp A    &kp A    &kp A    &kp A    &kp A    &kp A    &kp A // encoder button
+                &kp A    &kp A    &kp A    &kp A    &kp A    &kp A    &kp A    &kp A    &kp A    &kp A
+                &kp A    &kp A    &kp A    &kp A    &kp A    &kp A    &kp A    &kp A    &kp A    &kp A
+            >;
+        };
+    };
+ };
