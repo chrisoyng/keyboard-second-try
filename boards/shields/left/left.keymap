@@ -8,8 +8,8 @@
 
         default_layer {
             bindings = <
-                &kp ESCAPE    &kp 1    &kp 2    &kp 3    &kp 4    &kp TAB    &kp K_VOLUME_DOWN    &kp K_VOLUME_UP    &bt { bt-selected = <0>; }
-                &kp GRAVE    &kp Q    &kp W    &kp E    &kp R    &kp T    &kp Y    &kp U    &bt { bt-clear; }    &none
+                &kp ESCAPE    &kp 1    &kp 2    &kp 3    &kp 4    &kp TAB    &kp K_VOLUME_DOWN    &kp K_VOLUME_UP    &bt BT_SEL 0
+                &kp GRAVE    &kp Q    &kp W    &kp E    &kp R    &kp T    &kp Y    &kp U    &bt BT_CLR    &none
                 &kp LSHIFT   &kp A    &kp S    &kp D    &kp F    &kp G    &kp H    &kp J    &none    &none
                 &kp LSHIFT   &kp Z    &kp X    &kp C    &kp V    &kp B    &kp N    &kp M    &none    &none
                 &kp CTRL     &kp LEFT_WIN    &kp LALT    &kp SPACE    &kp SPACE    &kp SPACE    &none    &none    &none    &none
