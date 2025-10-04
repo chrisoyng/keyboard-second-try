@@ -1,5 +1,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/bt.h>
+
 
 / {
     keymap {
@@ -7,11 +9,11 @@
 
         default_layer { // Layer 0
             bindings = <
-                &kp A    &kp A    &kp A    &kp A    &kp A    &kp A    &kp A    &kp A    &kp A // push button, reset switch
-                &kp A    &kp A    &kp A    &kp A    &kp A    &kp A    &kp A    &kp A    &kp A    &studio_unlock // push button, push button
-                &kp A    &kp A    &kp A    &kp A    &kp A    &kp A    &kp A    &kp A    &kp A    &kp A // encoder button
-                &kp A    &kp A    &kp A    &kp A    &kp A    &kp A    &kp A    &kp A    &kp A    &kp A
-                &kp A    &kp A    &kp A    &kp A    &kp A    &kp A    &kp A    &kp A    &kp A    &kp A
+                &kp ESCAPE    &kp 1    &kp 2    &kp 3    &kp 4    &kp TAB    &kp K_VOLUME_DOWN    &kp K_VOLUME_UP    &bt BT_SEL 0  // push button, reset switch
+                &kp `    &kp Q    &kp W    &kp E    &kp R    &kp T    &kp Y    &kp U    &bt BT_CLR    &studio_unlock // push button, push button
+                &kp SHIFT    &kp A    &kp S    &kp D    &kp F    &kp G    &kp H    &kp J    &none    &none // encoder button
+                &kp SHIFT    &kp Z    &kp X    &kp C    &kp V    &kp B    &kp N    &kp M    &none    &none
+                &kp CTRL    &kp LEFT_WIN    &noneLT    &kp SPACE    &kp SPACE    &none    &none    &none    &none    &none
             >;
         };
     };
