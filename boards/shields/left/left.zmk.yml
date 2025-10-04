@@ -1,0 +1,11 @@
+file_format: "1"
+id: left
+name: left
+type: shield
+url: https://github.com/chrisoyng/keyboard-second-try
+requires: [pro_micro]
+exposes:
+features:
+  - keys
+  - encoder
+siblings:
