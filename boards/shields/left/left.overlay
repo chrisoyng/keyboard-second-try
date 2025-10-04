@@ -44,3 +44,24 @@
         >;
     };
 };
+
+/ {
+    chosen {
+        zmk,physical-layout = &physical_layout0;
+        // Other chosen items
+    };
+};
+
+
+
+/ {
+    chosen {
+        // optional code
+        zmk,kscan = &kscan0;
+        zmk,physical-layout = &physical_layout0;
+        // Other chosen items
+    };
+};
+
+
+
