@@ -12,7 +12,7 @@
                 &kp GRAVE    &kp Q    &kp W    &kp E    &kp R    &kp T    &kp Y    &kp U    &bt BT_CLR    &kp A
                 &kp LSHIFT   &kp A    &kp S    &kp D    &kp F    &kp G    &kp H    &kp J    &kp A    &kp A
                 &kp LSHIFT   &kp Z    &kp X    &kp C    &kp V    &kp B    &kp N    &kp M    &kp A    &kp A
-                &kp CTRL     &kp LEFT_WIN    &kp LALT    &kp SPACE    &kp SPACE    &kp SPACE    &kp A    &kp A    &kp A    &kp A
+                &kp LCTRL     &kp LEFT_WIN    &kp LALT    &kp SPACE    &kp SPACE    &kp SPACE    &kp A    &kp A    &kp A    &kp A
             >;
         };
     };
